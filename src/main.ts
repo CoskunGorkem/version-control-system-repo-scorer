@@ -40,7 +40,9 @@ async function bootstrap() {
   // Swagger documentation
   const swaggerConfig = new DocumentBuilder()
     .setTitle('Version Control System Repository Scorer')
-    .setDescription('API documentation for Version Control System Repository Scorer')
+    .setDescription(
+      'API documentation for Version Control System Repository Scorer',
+    )
     .setVersion('1.0')
     .build();
   const swaggerDocument = SwaggerModule.createDocument(app, swaggerConfig);

@@ -217,22 +217,22 @@ Common scripts:
 
 Given time constraints, the following items were not implemented:
 
-- Metrics & Observability
- - Prometheus metrics endpoint and dashboards such as Grafana
- - OpenTelemetry traces and log correlation
-- Kubernetes & Deployment
- - Helm chart / Kustomize manifests
- - Liveness/readiness probes, HPA
- - Config via ConfigMaps/Secrets
- - Redis as a managed service
-- API and Performance
- - User auth logic to prevent abusive usage
- - Version control providers could be extended. Currently, only GitHub is implemented, and GitLab is only initialized.
- - Dynamic scoring module, with individual score calculators that can be combined to aggregate weighted scores.
- - Store scroing module weights in DB, making it easier to adjust values.
- - Rate limiting and request quotas per client
-- Platform & DX
- - CD enhancements
+- **Metrics & Observability**
+  - Prometheus metrics endpoint and dashboards such as Grafana
+  - OpenTelemetry traces and log correlation
+- **Kubernetes & Deployment**
+  - Helm chart / Kustomize manifests
+  - Liveness/readiness probes, HPA
+  - Config via ConfigMaps/Secrets
+  - Redis as a managed service
+- **API and Performance**
+  - User auth logic to prevent abusive usage
+  - Version control providers could be extended. Currently, only GitHub is implemented, and GitLab is only initialized.
+  - Dynamic scoring module, with individual score calculators that can be combined to aggregate weighted scores.
+  - Store scoring module weights in DB, making it easier to adjust values.
+  - Rate limiting and request quotas per client
+- **Platform & DX**
+  - CD enhancements
 
 ---
 
